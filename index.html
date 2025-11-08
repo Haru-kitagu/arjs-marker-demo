@@ -33,14 +33,14 @@
   <body>
    
     <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;">
-      <a-marker type="pattern" url="markers/pattern-myu.patt">
+      <a-entity light="type: ambient; intensity: 1.2; color: #ffffff"></a-entity>
+      <a-entity light="type: directional; intensity: 1; color: #ffffff" position="1 1 1"></a-entity>
+      
+    <a-marker type="pattern" url="markers/pattern-myu.patt">
 
-
-<a-entity light="type: ambient; intensity: 1.2; color: #ffffff"></a-entity>
-<a-entity light="type: directional; intensity: 1; color: #ffffff" position="1 1 1"></a-entity>
 
         
-<a-entity   gltf-model="url(assets/hakucyou.glb)"   position="-3.0 0 0"   rotation="0 0 0"    scale="0.5 0.5 0.5"></a-entity>
+    <a-entity   gltf-model="url(assets/hakucyou.glb)"   position="-5.0 0 0"   rotation="0 0 0"    scale="0.5 0.5 0.5"></a-entity>
 
 
         
